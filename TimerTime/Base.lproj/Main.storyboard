@@ -19,14 +19,21 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Timer" id="NSF-vM-EAZ"/>
+                                    <navigationItem title="Timer" id="NSF-vM-EAZ">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="8e6-o8-QDg"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="hTI-dA-34i"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vk-1A-W78">
                                 <rect key="frame" x="0.0" y="811" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="2wQ-IT-yMk"/>
+                                    <barButtonItem systemItem="rewind" id="2wQ-IT-yMk"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="pie-qg-Sp6"/>
+                                    <barButtonItem systemItem="refresh" id="6eC-SN-lhO"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XpS-jv-UXw"/>
+                                    <barButtonItem systemItem="fastForward" id="Lt0-sW-yoE"/>
                                 </items>
                             </toolbar>
                         </subviews>
